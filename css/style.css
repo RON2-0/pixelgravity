@@ -93,6 +93,9 @@ main {
     align-content: center;
 }
 
+
+/*CIMAT*/
+
 .lvl-cimat {
     margin-left: 0rem;
     padding: 0;
@@ -100,6 +103,9 @@ main {
     padding-top: 1rem;
     align-content: center;
 }
+
+
+/*Config de img de CIMAT*/
 
 .img-cimat {
     display: flex;
@@ -110,20 +116,294 @@ main {
 
 .img-cimat img {
     display: flex;
-    margin: 0 auto;
-    max-width: 100%;
-    width: 50%;
+    margin: 2rem;
 }
 
 .img-cimat-mercero {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0;
+}
+
+.img-cimat-mercero img {
+    width: 100%;
+    max-width: 450px;
+    margin: 0;
+}
+
+.img-cimat-solucion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-cimat-solucion img {
+    width: 100%;
+    max-width: 400px;
+}
+
+.img-cimat-poligons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-cimat-poligons img {
+    width: 80%;
+}
+
+.img-cimat-tiras1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-cimat-tiras1 img {
+    width: 100%;
+    max-width: 450px;
+}
+
+.img-cimat-tiras2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-cimat-tiras2 img {
+    width: 100%;
+    max-width: 450px;
+}
+
+.img-cimat-tiras3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-cimat-tiras3 img {
+    width: 100%;
+    max-width: 450px;
+}
+
+.img-cimat-tiras4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-cimat-tiras4 img {
+    width: 100%;
+    max-width: 450px;
+}
+
+.img-cimat-tiras5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-cimat-tiras5 img {
+    width: 100%;
+    max-width: 450px;
+}
+
+.img-cimat-libreta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-cimat-libreta img {
+    transform: rotate(10deg);
+    margin: 1rem;
+    width: 100%;
+    max-width: 300px;
+}
+
+.img-cimat-lvl1-1 {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.img-cimat-lvl1-1 img {
+    width: 80%;
+}
+
+.img-cimat-lvl1-2 {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.img-cimat-lvl1-2 img {
+    width: 50%;
+}
+
+.img-cimat-lvl1-3 {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.img-cimat-lvl1-3 img {
+    width: 50%;
+}
+
+.img-cimat-lvl1-4 {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.img-cimat-lvl1-4 img {
+    width: 50%;
+}
+
+.img-cimat-transformar-rec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+    margin-left: 0;
+}
+
+.img-cimat-lvl2-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-cimat-lvl2-1 img {
+    width: 70%;
+}
+
+.img-cimat-lvl2-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-cimat-lvl2-2 img {
+    width: 70%;
+}
+
+.img-cimat-lvl2-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-cimat-lvl2-3 img {
+    width: 80%;
 }
 
 .boton-cimat {
     text-decoration: none;
 }
+
+.img-cimat-lvl3-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-cimat-lvl3-1 img {}
+
+.img-cimat-lvl3-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-cimat-lvl3-2 img {}
+
+.img-cimat-lvl3-2.1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-cimat-lvl3-2-.1 img {
+    width: 50%;
+}
+
+.img-cimat-lvl3-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-cimat-lvl3-3 img {
+    width: 80%;
+}
+
+.img-cimat-lvl3-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-cimat-lvl3-4 img {}
+
+.img-cimat-lvl3-5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-cimat-lvl3-5 img {}
+
+.img-cimat-lvl3-6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-cimat-lvl3-6 img {}
+
+.img-cimat-lvl3-7 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-cimat-lvl3-7 img {}
+
+.img-cimat-lvl3-8 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-cimat-lvl3-8 img {}
+
+.img-cimat-lvl3-9 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-cimat-lvl3-9 img {}
+
+.img-cimat-lvl3-10 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-cimat-lvl3-10 img {
+    width: 90%;
+}
+
+.img-cimat-lvl3-11 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-cimat-lvl3-11 img {}
 
 .img-banner-cimat {
     display: block;
