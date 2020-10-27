@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Teorema de Wallace-Bolyai-Gerwien</title>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/two.min.js"></script>
+    <script type="text/javascript" src="js/math.min.js"></script>
+    <script type="text/javascript" src="js/polyk.js"></script>
+    <script type="text/javascript" src="js/transformations.js"></script>
+    <script type="text/javascript" src="js/polygons.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-53112709-7');
+    </script>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <header>
+        <div class="banner">
+            <img src="../img/banner2.png" class="img-banner">
+        </div>
+    </header>
+
+    <div class="container-fluid">
+
+        <h1>
+            <b>Congruencia de Tijeras</b>
+        </h1>
+
+        <p>Esta es una demostración interactiva del <a href="https://es.wikipedia.org/wiki/Teorema_de_Wallace%E2%80%93Bolyai%E2%80%93Gerwien#:~:text=En%20geometr%C3%ADa%2C%20el%20teorema%20de,con%20las%20disecciones%20de%20pol%C3%ADgonos.&text=El%20teorema%20de%20Wallace%2DBolyai%2DGerwien%20dice%20que%20esto%20puede,pol%C3%ADgonos%20tienen%20la%20misma%20%C3%A1rea.">Teorema de Wallace-Boyai-Gerwien</a></p>
+
+        <div class="texto">
+            <div class="texto1">
+                <h1>
+                    <b>Teorema:</b>
+                </h1>
+                <p>
+                    “Cualquier pareja de polígonos simples con la misma área puede diseccionarse en un número finito de piezas poligonales congruentes.”
+                </p>
+            </div>
+            <div class="texto2">
+                <img src="img/solucion.png">
+            </div>
+        </div>
+
+    </div>
+
+    <!--Interactive-->
+    <div class="interactive">
+        <div class="canvas-principal">
+            <div id="canvas"></div>
+        </div>
+
+        <div id="controls">
+            <button id="play-pause" type="button" class="btn btn-default" disabled>
+                            <span class="glyphicon glyphicon-pause" aria-hidden="true"></span> Pausa
+                        </button>
+            <button id="replay" type="button" class="btn btn-default" disabled>
+                        <span class="glyphicon glyphicon-repeat" aria-hidden="true"></span> Repetición
+                        </button>
+            <button id="demo" type="button" class="btn btn-default">
+                            <span class="glyphicon glyphicon-film" aria-hidden="true"></span> Demo
+                        </button>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
