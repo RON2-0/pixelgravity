@@ -228,7 +228,7 @@ main {
 }
 
 .img-cimat-lvl1-1 img {
-    width: 70%;
+    width: 40%;
 }
 
 .img-cimat-lvl1-2 {
@@ -951,6 +951,18 @@ body::-webkit-scrollbar-thumb {
         padding-bottom: 75%;
         height: 0;
         overflow: hidden;
+    }
+    .img img {
+        width: 100%;
+    }
+    .img-cimat-transformar-rec img {
+        display: flex;
+        width: 100%;
+    }
+    .img-cimat-transformar-rec {
+        display: flex;
+        margin: 0;
+        padding: 0;
     }
 }
 
