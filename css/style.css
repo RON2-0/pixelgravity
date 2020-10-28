@@ -228,7 +228,7 @@ main {
 }
 
 .img-cimat-lvl1-1 img {
-    width: 80%;
+    width: 70%;
 }
 
 .img-cimat-lvl1-2 {
@@ -238,7 +238,7 @@ main {
 }
 
 .img-cimat-lvl1-2 img {
-    width: 50%;
+    width: 40%;
 }
 
 .img-cimat-lvl1-3 {
@@ -248,7 +248,7 @@ main {
 }
 
 .img-cimat-lvl1-3 img {
-    width: 50%;
+    width: 40%;
 }
 
 .img-cimat-lvl1-4 {
@@ -258,7 +258,7 @@ main {
 }
 
 .img-cimat-lvl1-4 img {
-    width: 50%;
+    width: 40%;
 }
 
 .img-cimat-transformar-rec {
@@ -276,7 +276,7 @@ main {
 }
 
 .img-cimat-lvl2-1 img {
-    width: 70%;
+    width: 60%;
 }
 
 .img-cimat-lvl2-2 {
@@ -286,7 +286,7 @@ main {
 }
 
 .img-cimat-lvl2-2 img {
-    width: 70%;
+    width: 65%;
 }
 
 .img-cimat-lvl2-3 {
@@ -296,13 +296,18 @@ main {
 }
 
 .img-cimat-lvl2-3 img {
-    width: 80%;
+    width: 65%;
 }
 
 .boton-cimat {
     text-decoration: none;
-    padding: 2rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.boton-cimat button {}
 
 .img-cimat-lvl3-1 {
     display: flex;
@@ -318,15 +323,17 @@ main {
     justify-content: center;
 }
 
-.img-cimat-lvl3-2 img {}
+.img-cimat-lvl3-2 img {
+    width: 50%;
+}
 
-.img-cimat-lvl3-2.1 {
+.img-cimat-lvl3-2-1 {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.img-cimat-lvl3-2-.1 img {
+.img-cimat-lvl3-2-1 img {
     width: 50%;
 }
 
@@ -354,7 +361,9 @@ main {
     justify-content: center;
 }
 
-.img-cimat-lvl3-5 img {}
+.img-cimat-lvl3-5 img {
+    width: 38%;
+}
 
 .img-cimat-lvl3-6 {
     display: flex;
@@ -362,7 +371,9 @@ main {
     justify-content: center;
 }
 
-.img-cimat-lvl3-6 img {}
+.img-cimat-lvl3-6 img {
+    width: 50%;
+}
 
 .img-cimat-lvl3-7 {
     display: flex;
@@ -370,7 +381,9 @@ main {
     justify-content: center;
 }
 
-.img-cimat-lvl3-7 img {}
+.img-cimat-lvl3-7 img {
+    width: 38%;
+}
 
 .img-cimat-lvl3-8 {
     display: flex;
@@ -378,7 +391,9 @@ main {
     justify-content: center;
 }
 
-.img-cimat-lvl3-8 img {}
+.img-cimat-lvl3-8 img {
+    width: 50%;
+}
 
 .img-cimat-lvl3-9 {
     display: flex;
@@ -386,7 +401,9 @@ main {
     justify-content: center;
 }
 
-.img-cimat-lvl3-9 img {}
+.img-cimat-lvl3-9 img {
+    width: 60%;
+}
 
 .img-cimat-lvl3-10 {
     display: flex;
@@ -395,7 +412,7 @@ main {
 }
 
 .img-cimat-lvl3-10 img {
-    width: 90%;
+    width: 95%;
 }
 
 .img-cimat-lvl3-11 {
