@@ -301,6 +301,7 @@ main {
 
 .boton-cimat {
     text-decoration: none;
+    padding: 2rem;
 }
 
 .img-cimat-lvl3-1 {
@@ -628,6 +629,7 @@ footer {
     align-items: center;
     justify-content: center;
     padding-top: 0;
+    margin-top: 0;
 }
 
 .iframe-responsive {
