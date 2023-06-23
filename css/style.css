@@ -873,6 +873,9 @@ body::-webkit-scrollbar-thumb {
         margin: 1rem;
         font-size: 22px;
     }
+    .yo {
+        padding-bottom: 5rem;
+    }
 }
 
 
@@ -968,6 +971,9 @@ body::-webkit-scrollbar-thumb {
         margin: 0;
         padding: 0;
     }
+    .yo {
+        padding-bottom: 5rem;
+    }
 }
 
 
@@ -997,11 +1003,17 @@ body::-webkit-scrollbar-thumb {
     .navbar:hover .logo-text {
         left: 0px;
     }
+    .yo {
+        padding-bottom: 5rem;
+    }
 }
 
 @media only screen and (max-width: 1200px) {
     .item-inicio {
         height: 100%;
+    }
+    .yo {
+        padding-bottom: 5rem;
     }
 }
 
