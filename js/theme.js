@@ -6,7 +6,7 @@ const themeMap = {
 // Obtener el tema actual del localStorage
 const currentTheme = localStorage.getItem('theme');
 
-// Si no hay un tema almacenado o el tema actual no está en themeMap, se establece el tema "light" como predeterminado
+// Si no hay un tema almacenado o el tema actual no está en themeMap, se establece el tema "light" como predeterminado.
 const theme = currentTheme && themeMap[currentTheme] ? currentTheme : "light";
 
 const bodyClass = document.body.classList;
