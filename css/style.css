@@ -649,6 +649,10 @@ footer {
     margin-top: 0;
 }
 
+.yo {
+    margin-bottom: 2rem;
+}
+
 .iframe-responsive {
     position: relative;
     padding-bottom: 56.25%;
